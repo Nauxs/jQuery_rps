@@ -1,0 +1,85 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+   /* border: 1px solid black;*/
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 0 auto;
+    width: 540px;
+    height: 300px;
+    border: 2px solid blue;
+}
+section {
+    padding: 20px 0;
+}
+h1 {
+    font-size: 140%;
+    /*margin-left: 15px;*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2 {
+    font-size: 140%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: underline;
+}
+#roll {
+    text-align: center;
+    margin-top: 200px;
+
+}
+/* the styles for the carousel */
+.button_panel	{
+    height: 25px;
+    padding: 50px 15px;
+    float: left;
+}
+.button_panel img {
+    width: 25px;
+    height: 25px;
+}
+#display_panel1 {
+    height: 125px;
+    width: 100px;
+    overflow: hidden;
+    float: left;
+}
+#display_panel2 {
+    height: 125px;
+    width: 100px;
+    overflow: hidden;
+    float: right;
+    margin-right: 45px;
+}
+#image_list1, #image_list2 {
+    left: 0px;
+    position: relative;
+    width: 300px;
+    list-style: none;
+}
+#image_list1 li {
+    float: left;
+    width: 100px;
+}
+#image_list2 li {
+    float: right;
+    width: 100px;
+}
+#image_list1 li img, #image_list2 li img {
+    width: 95px;
+
+}
+#comp_item {
+    float: right;
+}
+#player_item {
+    float: left;
+}
